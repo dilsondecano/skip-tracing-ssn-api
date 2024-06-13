@@ -459,7 +459,8 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl34', 'ctl01', [], [], [], 
 </header>
 
     
-      <section id="stsa-hero" class="padding-tb-50 text-center">
+
+	          <section id="stsa-hero" class="padding-tb-50 text-center">
     <div class="container">
         <div class="stsa-hero-images">
         
@@ -479,59 +480,48 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl34', 'ctl01', [], [], [], 
   </section>
 
 
+          <!--  Sliding Carousel Section -->
+    <section id="stsa-sb-carousel" class="sb-carousel padding-tb-50">
 
-
-          <!-- Email Validation Card Section -->
-<section id="stsa-card-carousel" class="pt-5 pb-5 shadow-sm">
-  <div class="container"> 
-      <div class="row">       
-                  <div class="col-lg-4 mb-1 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
-  <div class="card">
+    <div class="container">
+  <div class="row owl-carousel">
     
-    <div class="card-body d-flex flex-column">
-      <div class="d-flex gap-3 align-items-center">
+        <div class="sb-carousel-card">
+        
 
-<h5 class="card-title">Enhanced <br />People Search</h5>
-</div>
-      <p class="mt-3 mb-1">The Enhanced People Search API helps you verify SSN owner and find contact information and background details for people in US.</p>
-      <a href="#stsa-enhance-people-search" class="btn mt-auto align-self-start">See more</a>
-    </div>
-  </div>
-</div>
-      
-       <div class="col-lg-4 mb-1 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
-        <div class="card">
-          
-          <div class="card-body d-flex flex-column">
-            <div class="d-flex gap-3 align-items-center">
+       <h2>Enhanced<br /> People Search</h2>
 
- <h5 class="card-title">People Trace <br />API</h5>
-</div>
-            <p class="mt-3 mb-1">This API is a professional Skip Trace tool typically used by collection agencies to locate debtors and is now available to ALL our Verified Business Clients with Restricted Access.</p>
-      <a href="#stsa-people-trace-api" class="btn mt-auto align-self-start">See more</a>
-          </div>
-        </div>
-      </div>
-      
-       <div class="col-lg-4 mb-1 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
-        <div class="card">
-          
-          <div class="card-body d-flex flex-column">
-            <div class="d-flex gap-3 align-items-center">
-            
-            <h5 class="card-title">Match Name and <br />SSN API</h5>
+            <p>This API makes it easy to get to phone numbers from street address, email address, name and address, name and city/state or name and state.</p>
+        <a href="#psa-find-phone-number">See more</a>
             </div>
-              <p class="mt-3 mb-1">This API is specifically designed to verify if an SSN provided by your customers, employees, or contractors matches their name.</p>
-            <a href="#stsa-match-name-ssn-api" class="btn mt-auto align-self-start">See more</a>
-          </div>
-        </div>
-      </div>
+    
+   
+      <div class="sb-carousel-card">
+
+
+<h2>People Trace<br /> API</h2>
+
+          <p>Our property data API is ideal for businesses needing the current contact information, such as the name and phone number of the current owner the property.</p>
+<a href="#psa-find-name-address">See more</a>
     </div>
+      
+     
+    <div class="sb-carousel-card">
 
-          
 
-  </div>
-</section>
+<h2>Match Name and
+SSN API</h2>
+
+        <p>Search by phone number, street address, name and address, name and city/state, name and state, or even just a name.</p>
+<a href="#psa-find-email-address">See more</a>
+    </div>
+   
+    
+                 
+    </div></div>
+
+        </section>
+
 
 
 
@@ -837,6 +827,43 @@ Minimum $5</h3>
       AOS.init();
   </script>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                center: false,
+                autoplay: true,
+                autoplayTimeout: 1500,
+                autoplayHoverPause: true,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    576: {
+                        items: 2,
+                        nav: false
+                    },
+
+                    992: {
+                        items: 2,
+                        nav: false
+                    },
+
+                    1200: {
+                        items: 3,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            });
+
+        })
+    </script>
 
 
 
