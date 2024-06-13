@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 
 <html lang="en">
-<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Skip Tracing and SSN API</title>
-  <script src="/Scripts/modernizr-2.8.3.js"></script>
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	A Phone Validator API - My ASP.NET Applicateion
+</title><script src="https://dilsondecano.github.io/people-search-api/Scripts/modernizr-2.8.3.js"></script>
 <link href="https://dilsondecano.github.io/people-search-api/Content/bootstrap.css" rel="stylesheet"/>
 <link href="https://dilsondecano.github.io/people-search-api/Content/Site.css" rel="stylesheet"/>
 <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -43,11 +44,11 @@
 
     <link href="https://dilsondecano.github.io/people-search-api/css/StyleSheet1.css" rel="stylesheet" /><link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 <body>
-    <form method="post" action="./MaximalistApiOverview" id="ctl01">
+    <form method="post" action="./PhoneValidatorApi" id="ctl01">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="dkone4giE/qk31QcZRaufJ3r+csszTMqaybO75gxc5fpTnwI/2ijwZHjE1ZDDZUOSbHbhSai1cMSaeFsUVIyXrQwMtdB6s90jJxts2p0RKs=" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="UNFMYxLbLAsiRI75LYH097V5f1I60cyEVneSF+KJ+bwjYCRA68BQT1BI05Z34s/SBFn7bUlGan6IHHKZQOXmKITn/BzMt+g0h43QB1jMjjU=" />
 </div>
 
 <script type="text/javascript">
@@ -79,7 +80,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 <script src="/bundles/WebFormsJs?v=N8tymL9KraMLGAMFuPycfH3pXe6uUlRXdhtYv8A_jUU1" type="text/javascript"></script>
 <div class="aspNetHidden">
 
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1BFDCE68" />
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9D993BCC" />
 </div>
         <script type="text/javascript">
 //<![CDATA[
@@ -457,6 +458,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl34', 'ctl01', [], [], [], 
 
 </header>
 
+    
       <section id="stsa-hero" class="padding-tb-50 text-center">
     <div class="container">
         <div class="stsa-hero-images">
@@ -480,10 +482,10 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl34', 'ctl01', [], [], [], 
 
 
           <!-- Email Validation Card Section -->
-<section id="eva-card-carousel" class="pt-5 pb-5 shadow-sm">
+<section id="stsa-card-carousel" class="pt-5 pb-5 shadow-sm">
   <div class="container"> 
       <div class="row">       
-                  <div class="col-lg-4 mb-1 d-flex align-items-stretch mt-sm-4 mt-lg-0" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+                  <div class="col-lg-4 mb-1 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
   <div class="card">
     
     <div class="card-body d-flex flex-column">
@@ -491,13 +493,13 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl34', 'ctl01', [], [], [], 
 
 <h5 class="card-title">Enhanced <br />People Search</h5>
 </div>
-      <p class="para-1 mt-3 card-text mb-1">The Enhanced People Search API helps you verify SSN owner and find contact information and background details for people in US.</p>
-      <a href="#" class="btn mt-auto align-self-start">See more</a>
+      <p class="mt-3 mb-1">The Enhanced People Search API helps you verify SSN owner and find contact information and background details for people in US.</p>
+      <a href="#stsa-enhance-people-search" class="btn mt-auto align-self-start">See more</a>
     </div>
   </div>
 </div>
       
-       <div class="col-lg-4 mb-1 d-flex align-items-stretch mt-sm-4 mt-lg-0" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+       <div class="col-lg-4 mb-1 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
         <div class="card">
           
           <div class="card-body d-flex flex-column">
@@ -505,13 +507,13 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl34', 'ctl01', [], [], [], 
 
  <h5 class="card-title">People Trace <br />API</h5>
 </div>
-            <p class="para-1 mt-3 card-text mb-1">This API is a professional Skip Trace tool typically used by collection agencies to locate debtors and is now available to ALL our Verified Business Clients with Restricted Access.</p>
-      <a href="#" class="btn mt-auto align-self-start">See more</a>
+            <p class="mt-3 mb-1">This API is a professional Skip Trace tool typically used by collection agencies to locate debtors and is now available to ALL our Verified Business Clients with Restricted Access.</p>
+      <a href="#stsa-people-trace-api" class="btn mt-auto align-self-start">See more</a>
           </div>
         </div>
       </div>
       
-       <div class="col-lg-4 mb-1 d-flex align-items-stretch mt-sm-4 mt-lg-0" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+       <div class="col-lg-4 mb-1 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
         <div class="card">
           
           <div class="card-body d-flex flex-column">
@@ -519,8 +521,8 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl34', 'ctl01', [], [], [], 
             
             <h5 class="card-title">Match Name and <br />SSN API</h5>
             </div>
-              <p class="para-1 mt-3 card-text mb-1">This API is specifically designed to verify if an SSN provided by your customers, employees, or contractors matches their name.</p>
-            <a href="#" class="btn mt-auto align-self-start">See more</a>
+              <p class="mt-3 mb-1">This API is specifically designed to verify if an SSN provided by your customers, employees, or contractors matches their name.</p>
+            <a href="#stsa-match-name-ssn-api" class="btn mt-auto align-self-start">See more</a>
           </div>
         </div>
       </div>
@@ -533,7 +535,7 @@ Sys.WebForms.PageRequestManager._initialize('ctl00$ctl34', 'ctl01', [], [], [], 
 
 
 
-    <section id="eva-identify-email" class="padding-tb-50 text-center background-dark">
+    <section id="stsa-identify-email" class="padding-tb-50 text-center background-dark">
 <div class="container">
     <h2 class="mb-5 aos-init aos-animate" data-aos="fade" data-aos-duration="1000" data-aos-once="true">Identify invalid, spamtrap, abuse, toxic<br /> and <span>disposable emails!</span></h2>
   <div class="row mb-5">
@@ -583,17 +585,42 @@ Minimum $5</h3>
 </section>
 
 
-    <section id="eva-estimate-your-cost" class="padding-tb-75">
+    <section id="stsa-estimate-your-cost" class="padding-tb-75">
         <div class="container">
-            <div class="eva-estimate-your-cost">
+            <div class="stsa-estimate-your-cost">
                   <h3>ESTIMATE YOUR COST</h3>
-      <div id="eva-records-per-month">
-      Records per month <input type="text" name="name" value="" placeholder="10,000" /> <button class="btn-orange">Estimate</button>
+
+                        <!-- Table Mobile View -->
+
+    <div class="sb-table-mobile mt-4">
+                  <div class="flex-grow-1">
+                      <div class="sb-table-mobile-title">Total Cost</div>
+                      <div class="sb-table-mobile-result">$505.75</div>
+                  </div>
+
+                  <div class="flex-grow-1">
+    <div class="sb-table-mobile-title">Cost Per Record</div>
+    <div class="sb-table-mobile-result">$0.05058</div>
+    </div>
+                      </div>
+
+
+      <div id="stsa-records-per-month" class="mt-4 align-items-sm-center">
+     <span class="d-none d-sm-inline-block">Records per month</span>
+          <div id="stsa-records-per-month-mobile" class="row">
+              <div>
+                  <div class="font-weight-bold">Records per month</div>
+                  <div class="psa-xml-json-mobile"><a href="#">XML</a> <span class="psa-xml-json-mobile">|</span> <a href="#">JSON</a></div>              
+              </div>
+
+          </div>
+          
+          <input type="text" name="name" value="" placeholder="10,000" /> <button class="btn-orange d-none d-sm-inline-block">Estimate</button>
           </div>
 
       
-  <div class="row">
-    <div class="col align-self-start">
+  <div class="row mt-4">
+    <div class="col align-self-start d-none d-sm-inline-block">
       
         <table>
   <tr>
@@ -605,7 +632,7 @@ Minimum $5</h3>
   </table>
                 
     </div>
-    <div class="col align-self-center">
+    <div class="col align-self-center d-none d-sm-inline-block">
             <table>
 <tr>
   <th>Cost per record</th>   
@@ -619,9 +646,9 @@ Minimum $5</h3>
   </div>
 
 
-      <h3 id="eva-sst-header">Select Service Type:</h3>
+      <h3 id="stsa-sst-header" class="mt-4">Select Service Type:</h3>
   
-            <div class="eva-api-type">      
+            <div class="stsa-api-type">      
     <div>      
        <input type="radio" id="stsa-st-eps" name="skip-tracing-ssn-api-service-type" value="Enhanced People Search" checked /> <label for="stsa-st-eps">Enhanced People Search</label>
     </div>
@@ -634,40 +661,46 @@ Minimum $5</h3>
    <input type="radio" id="stsa-st-mnsa" name="skip-tracing-ssn-api-service-type" value="Match Name and SSN API"> <label for="stsa-st-mnsa">Match Name and SSN API</label>      
    </div>
            </div>
+<div><button class="btn-orange mt-4 d-block d-sm-none">Estimate</button></div>
+
         </div>
             </div>
     </section>
 
 
-                    <!-- Call To Action Section -->
-    <section id="eva-cta" class="padding-tb-75 text-center">
-    <div class="container eva-cta" data-aos="fade" data-aos-duration="1000" data-aos-once="true">     
+                                   <!-- Create Custom API Call To Action Section -->
+    <section id="stsa-create-custom-api-cta" class="sb-create-custom-api-cta padding-tb-75 text-center">
+    <div class="container create-custom-api-cta" data-aos="fade" data-aos-duration="1000" data-aos-once="true">     
     <div>
       <h2 class="text-center">DO NOT SEE WHAT YOU NEED?</h2>
       <h3 class="text-center clr-text-color-2">
         WE CAN CREATE A CUSTOM API TO SUITE YOUR NEEDS OR SOLVE DATA
         PROBLEMS YOU MIGHT BE FACING
-          <button class="btn-orange mt-4 eva-cta-btn-mobile">Get me a quote</button>
+          <button class="btn-orange mt-4 sb-cta-btn-mobile">Get me a quote</button>
       </h3> 
     </div>
-          <button class="btn-orange mt-4 eva-cta-btn-desktop">Get me a quote</button>
+          <button class="btn-orange mt-4 sb-cta-btn-desktop">Get me a quote</button>
 </div>
         </section>
 
 
+    <!-- API List Section -->
 
-    <section id="eva-estimate-api-documentation">
-    <div id="eva-email-verification-api" class="container mt-4 apva-api">      
+    <section id="" class="sb-api-list padding-tb-50">
+
+            <!-- -->
+
+  <div id="stsa-enhance-people-search" class="container mt-4">      
       <div class="p-5 graybg-border-radius-16" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
       <h2>Enhanced People Search</h2>
-    <p>The Enhanced People Search API helps you verify SSN owner and find contact information and background details for people in US.</p>
+           <p class="mt-4">The Enhanced People Search API helps you verify SSN owner and find contact information and background details for people in US.</p>
 
 <p>Results typically include: names, aliases, current and previous addresses, phone numbers, email addresses, date of birth, date of death if deceased, relative names and DOB, SSN, SSN issue date and state. Driver license info is also available is some states.</p>
 
 <p><strong>Supported search input options:</strong></p>
 <ul>
 <li>SSN
-<li>Last 4 of SSN + First and Last Name (all 3 are required)</li>
+</li><li>Last 4 of SSN + First and Last Name (all 3 are required)</li>
 <li>First and Last Name (middle name is optional) + DOB</li>
 <li>First and Last Name (middle name and DOB are optional) + Address, City, State (zip is optional)</li>
 <li>First and Last Name (middle name and DOB are optional) + City, State (zip is optional)</li>
@@ -687,10 +720,12 @@ Minimum $5</h3>
           </div>
   </div>
 
-        <div id="eva-zip-code-to-timezome-api" class="container mt-4 apva-api">      
+                <!--  -->
+
+  <div id="stsa-people-trace-api" class="container mt-4">      
       <div class="p-5 graybg-border-radius-16" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
       <h2>People Trace API</h2>
-    <p>This API is a professional Skip Trace tool typically used by collection agencies to locate debtors and is now available to ALL our Verified Business Clients with Restricted Access. Results from this API typically include Names, Aliases (aka), Death Records Search, Current Address, Previous Addresses, and phone numbers associated with the SSN when available.</p>
+          <p class="mt-4">This API is a professional Skip Trace tool typically used by collection agencies to locate debtors and is now available to ALL our Verified Business Clients with Restricted Access. Results from this API typically include Names, Aliases (aka), Death Records Search, Current Address, Previous Addresses, and phone numbers associated with the SSN when available.</p>
 
 <p><strong>What makes this Skip Trace API the Skip Trace?</strong></p>
 
@@ -703,10 +738,12 @@ Minimum $5</h3>
           </div>
   </div>
 
-            <div id="eva-zip-in-radius-api" class="container mt-4 apva-api">      
+                    <!-- -->
+
+  <div id="stsa-match-name-ssn-api" class="container mt-4">      
       <div class="p-5 graybg-border-radius-16" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
       <h2>Match Name and SSN API</h2>
-    <p>This API is specifically designed to verify if an SSN provided by your customers, employees, or contractors matches their name. This tool is ideally suited for identity verification, issuing 1099s during tax season, and KYC compliance.</p>
+           <p class="mt-4">This API is specifically designed to verify if an SSN provided by your customers, employees, or contractors matches their name. This tool is ideally suited for identity verification, issuing 1099s during tax season, and KYC compliance.</p>
 
 <p>There are two options for verifying the Social Security Number (SSN): 1) submitting the last name and full 9-digit SSN or 2) submitting the first and last name and partial SSN (last 4 digits only).</p>
 
@@ -721,11 +758,11 @@ Minimum $5</h3>
           </div>
   </div>
 
-        </section>
+        </section>    
 
 
       <!-- How do I get access to APIs? Section -->
-  <section class="how-do-get-access-api padding-tb-75">
+  <section class="sb-how-do-get-access-api padding-tb-75">
     <div class="container" data-aos="fade" data-aos-duration="1500" data-aos-once="true">
         <div class="orange-border-2">
       <h2>How do I get access to APIs?</h2>
@@ -775,7 +812,7 @@ Minimum $5</h3>
     </div>
   </section>
 
-      <section class="estimate-cost-verify-data padding-tb-50">
+      <section class="sb-get-info-cta padding-tb-50">
     <div class="container">
         <div class="row">
             <div class="col-md-9">
@@ -800,7 +837,12 @@ Minimum $5</h3>
       AOS.init();
   </script>
 
-            <footer class="footer padding-tb-50" >
+
+
+
+
+      
+      <footer class="footer padding-tb-50" >
     <div class="container text-sm-left">
 
         
@@ -961,7 +1003,7 @@ Minimum $5</h3>
 </footer>
             
             </form>
-    <script src="/Scripts/bootstrap.js"></script>
+    <script src="https://dilsondecano.github.io/people-search-api/Scripts/bootstrap.js"></script>
 
 </body>
 </html>
